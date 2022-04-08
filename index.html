@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/bc0e89df47.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" media="screen and (min-width: 415px)" href="./css/menu.css">
+    <link rel="stylesheet" media="screen and (max-width: 414px)" href="./css/mobile.css">
+    <title>Sumit Mitra</title>
+  </head>
+  <body>
+    <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div>
+          <div>
+            <ul>
+              <li><a class="smooth" href="#home">Home</a></li>
+              <li><a class="smooth" href="#aboutme">About</a></li>
+              <li><a class="smooth" href="#contactme">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <!-- Home -->
+      <section id="home" class="img-home">
+        <div class="home">
+          <h3 class="l-heading">
+            <span class="span1">Web Developer</span>
+            <span class="span2"> & </span>
+            <span class="span3">Web Designer</span>
+          </h3>
+          <p>
+            One Stop for Both Elegant, Responsive Design & Full Stack Web
+            Development
+          </p>
+          <a href="#aboutme" class="btn smooth">Read More</a>
+        </div>
+      </section>
+      <!-- About Me -->
+      <section id="aboutme" class="about-container">
+        <div class="icon-text">
+          <div class="icons">
+            <i class="fa-brands fa-css3-alt fa-9x --fa-inverse"></i>
+          </div>
+          <h2>Modern CSS with Flex Box & Grid, Animation and many more.</h2>
+        </div>
+        <div class="icon-text">
+          <div class="icons">
+            <i class="fa-brands fa-react fa-9x --fa-inverse"></i>
+          </div>
+          <h2>
+            Join the new trend with React. Full Stack Web Developer on MERN
+            Stack.
+          </h2>
+        </div>
+        <div class="icon-text">
+          <div class="icons">
+            <i class="fa-brands fa-node-js fa-9x --fa-inverse"></i>
+          </div>
+          <h2>
+            Traditional or Serverless, both type of Developments are available.
+          </h2>
+        </div>
+        <div class="icon-text">
+          <div class="icons">
+            <i class="fa-brands fa-python fa-9x --fa-inverse"></i>
+          </div>
+          <h2>Django is also another Choice for Back End.</h2>
+        </div>
+        <div class="icon-text">
+          <div class="icons">
+            <i class="fa-solid fa-database fa-9x --fa-inverse"></i>
+          </div>
+          <h2>Design & Develop Database for Ecommerce Websites.</h2>
+        </div>
+        <div class="icon-text">
+          <div class="icons">
+            <i class="fa-solid fa-server fa-9x --fa-inverse"></i>
+          </div>
+          <h2>Certified Linux System Administrator.</h2>
+        </div>
+      </section>
+      <!-- Contact Me -->
+      <section id="contactme">
+        <div class="wrap">
+          <div class="container-new">
+            <h1>Contact Me</h1>
+            <form name="contact" action="POST" data-netlify="true">
+              <div class="entry-fields border">
+                <label for="name" name="name" id="name">Name</label>
+                <input type="text" name="name" />
+              </div>
+              <div class="entry-fields border">
+                <label for="email" name="email" id="email">Email</label>
+                <input type="email" name="email" />
+              </div>
+              <div class="entry-fields border">
+                <label for="phone" name="phone" id="phone">Phone Number</label>
+                <input type="text" name="phone" />
+              </div>
+              <div class="entry-fields border">
+                <label for="comment" name="comment" id="comment">Comments</label>
+                <textarea name="comment"></textarea>
+              </div>
+              <div class="entry-fields btn-middle">
+                <button type="submit" class="btn">Submit</button>
+              </div>
+            </form>
+            <div class="contact-icons">
+              <a href="https://www.facebook.com/madisgod"
+                ><i class="fa-brands fa-facebook fa-3x --fa-inverse"></i
+              ></a>
+              <a href="https://github.com/madgod87"
+                ><i class="fa-brands fa-github fa-3x --fa-inverse"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <footer id="main-footer">
+    <p>Copyright &copy; 2022, All Rights Reserved to Mad God</p>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+</html>
